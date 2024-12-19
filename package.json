@@ -5,10 +5,10 @@
   "type": "module",
 
   "scripts": {
-    "dev:front": "vite",
-    "dev": "npm build && npm server",
+    "dev": "vite",
     "build": "vite build",
     "server": "node server.js",
+    "start": "node server.js",
     "lint": "eslint .",
     "preview": "vite preview"
   },
